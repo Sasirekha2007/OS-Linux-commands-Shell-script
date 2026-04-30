@@ -40,21 +40,25 @@ s.n. dasgupta
 ^d
 ```
 ### Display the content of the files
-cat < file1
+cat > file1
 ## OUTPUT
+<img width="700" height="583" alt="Screenshot 2026-04-27 204408" src="https://github.com/user-attachments/assets/0634d995-4600-46cf-bb1e-12d5c1b1a9a9" />
 
 
 
 cat < file2
 ## OUTPUT
+<img width="700" height="583" alt="Screenshot 2026-04-27 204408" src="https://github.com/user-attachments/assets/ac701226-0f2d-496c-bae4-e53e28670c26" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="613" height="82" alt="Screenshot 2026-04-27 223322" src="https://github.com/user-attachments/assets/1866b52f-3243-450e-a26d-cfbc0f978bfc" />
+
 comm file1 file2
  ## OUTPUT
+<img width="682" height="298" alt="Screenshot 2026-04-27 223421" src="https://github.com/user-attachments/assets/8e165394-98f1-4a60-a3b2-60dc7816ac83" />
 
  
 diff file1 file2
@@ -1060,7 +1064,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="1098" height="706" alt="Screenshot 2026-04-28 205844" src="https://github.com/user-attachments/assets/a9eb1fdf-7c90-49e7-9e61-4701640dbc08" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1088,6 +1093,7 @@ fi
 ```
 ## OUTPUT 
 
+<img width="700" height="583" alt="Screenshot 2026-04-27 204408" src="https://github.com/user-attachments/assets/d98ca849-79d7-4289-aac5-cf5fa27278f6" />
 
 # RESULT:
 The Commands are executed successfully.
